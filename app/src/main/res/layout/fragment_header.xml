@@ -6,10 +6,10 @@
     <data>
         <variable
             name="viewModel"
-            type="nl.testchamber.mailordercoffeeshop.order.OrderViewModel" />
+            type="de.deliveryhero.mailordercoffeeshop.order.OrderViewModel" />
         <variable
             name="listener"
-            type="nl.testchamber.mailordercoffeeshop.order.HeaderFragment.OnHeaderSelected" />
+            type="de.deliveryhero.mailordercoffeeshop.order.HeaderFragment.OnHeaderSelected" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

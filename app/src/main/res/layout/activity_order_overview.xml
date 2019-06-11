@@ -6,10 +6,10 @@
     <data>
         <variable
             name="viewModel"
-            type="nl.testchamber.mailordercoffeeshop.orderoverview.OrderOverviewViewModel" />
+            type="de.deliveryhero.mailordercoffeeshop.orderoverview.OrderOverviewViewModel" />
         <variable
             name="listeners"
-            type="nl.testchamber.mailordercoffeeshop.orderoverview.OrderOverviewActivity.Listeners"/>
+            type="de.deliveryhero.mailordercoffeeshop.orderoverview.OrderOverviewActivity.Listeners"/>
     </data>
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"

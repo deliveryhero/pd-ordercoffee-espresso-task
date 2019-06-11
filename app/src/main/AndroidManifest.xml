@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="nl.testchamber.mailordercoffeeshop">
+    package="de.deliveryhero.mailordercoffeeshop">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -22,7 +22,7 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-        <activity android:name="nl.testchamber.mailordercoffeeshop.MainActivity">
+        <activity android:name="de.deliveryhero.mailordercoffeeshop.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,10 +30,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="nl.testchamber.mailordercoffeeshop.onboarding.OnboardingActivity"
+            android:name="de.deliveryhero.mailordercoffeeshop.onboarding.OnboardingActivity"
             android:label="Circles/Styled (via layout)"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name="nl.testchamber.mailordercoffeeshop.orderoverview.OrderOverviewActivity"></activity>
+        <activity android:name="de.deliveryhero.mailordercoffeeshop.orderoverview.OrderOverviewActivity"></activity>
     </application>
 
 </manifest>

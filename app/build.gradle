@@ -7,15 +7,12 @@ android {
     compileSdkVersion 28
     buildToolsVersion "28.0.3"
     defaultConfig {
-        applicationId "nl.testchamber.mailordercoffeeshop"
+        applicationId "de.deliveryhero.mailordercoffeeshop"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        // The following argument makes the Android Test Orchestrator run its
-        // "pm clear" command after each test invocation. This command ensures
-        // that the app's state is completely cleared between tests.
         testInstrumentationRunnerArguments clearPackageData: 'true'
         dataBinding {
             enabled = true
@@ -48,12 +45,12 @@ dependencies {
     implementation "android.arch.lifecycle:extensions:1.1.1"
     implementation "android.arch.lifecycle:viewmodel:1.1.1"
     testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test:rules:1.1.2-alpha01'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
-    androidTestImplementation 'androidx.test:runner:1.1.1'
+    androidTestImplementation 'androidx.test:rules:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'com.android.support.test.espresso:espresso-contrib:3.0.2'
-    androidTestImplementation 'androidx.test.espresso:espresso-intents:3.1.0'
-    androidTestUtil 'androidx.test:orchestrator:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-intents:3.2.0'
+    androidTestUtil 'androidx.test:orchestrator:1.2.0'
 }
 repositories {
     mavenCentral()

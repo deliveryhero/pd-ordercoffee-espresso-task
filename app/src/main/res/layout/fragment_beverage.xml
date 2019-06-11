@@ -10,7 +10,7 @@
 
         <variable
             name="viewModel"
-            type="nl.testchamber.mailordercoffeeshop.order.beveragesmenu.MenuViewModel" />
+            type="de.deliveryhero.mailordercoffeeshop.order.beveragesmenu.MenuViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

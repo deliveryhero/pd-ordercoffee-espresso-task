@@ -72,6 +72,8 @@ In general, this works*: 
 
 ### Workshop task 1
 
+Goto to `app/src/androidTest/java/de/deliveryhero/mailordercoffeeshop` you will find `EspressoWorkshopTest` and here you can start writing your tests
+
 - Close the `Onboarding` screen
 - Place and Order with `2 Espresso shots , Chocolate and Low fat Steamed Milk `
 - Fill the form to submit your order 
