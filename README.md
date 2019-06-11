@@ -22,6 +22,8 @@
 <br />
 <br />
 <br />
+<br />
+<br />
 
 This Repo contains the source code for the 'Mail Order Coffeeshop app'.
 The MailOrder Coffeeshop app was built for Android App test automation practice.
