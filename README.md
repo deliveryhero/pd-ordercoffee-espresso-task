@@ -2,7 +2,6 @@
 
 This Repo contains the source code for the 'Mail Order Coffeeshop app'.
 The MailOrder Coffeeshop app was built for Android App test automation practice.
-My blog (URL) offers free posts and exercises to help you get started with UI Automation using the Espresso framework.
 
 ## Setup
 
@@ -70,22 +69,19 @@ In general, this works*: 
 4. Scroll to the bottom and tap Build Number 7 times;
 5. Return to the previous screen to find Developer options near the bottom.
 
-*If you're on a different Android version, or your device manufacturer has decided to implement the settings differently, you'll have to Google how to enable the Developer options for your specific device.
-
-Source: https://developer.android.com/studio/debug/dev-options
 
 ### Workshop task 1
 
-1- Close the `Onboarding` screen
-2- Place and Order with `2 Espresso shots , Chocolate and Low fat Steamed Milk `
-3- Fill the form to submit your order 
-4- Click `Submit Order` - Just click the button not continue with Email part
+- Close the `Onboarding` screen
+- Place and Order with `2 Espresso shots , Chocolate and Low fat Steamed Milk `
+- Fill the form to submit your order 
+- Click `Submit Order` - Just click the button not continue with Email part
 
 
 ### Workshop task 2
-1- Close the `Onboarding` screen
-2- Click on `Menu`
-3- Select `CAPPUCCINO`
-4- Enter `your Name` and `your email`
-5- Click `Submit Order`
+- Close the `Onboarding` screen
+- Click on `Menu`
+- Select `CAPPUCCINO`
+- Enter `your Name` and `your email`
+- Click `Submit Order`
 
