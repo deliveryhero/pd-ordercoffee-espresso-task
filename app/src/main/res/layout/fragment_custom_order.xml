@@ -172,16 +172,16 @@
                     android:id="@+id/milk_type"
                     style="@style/textViewStyling"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="16dp"
-                    app:spinnerAdapter="@{handlers.spinnerAdapter}"
-                    app:spinnerSelected="@{handlers.spinnerListener}"
                     app:layout_constraintBottom_toTopOf="@id/milk_options_container"
                     app:layout_constraintHorizontal_bias="1"
                     app:layout_constraintLeft_toRightOf="@id/spinner_text"
                     app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/chocolate" />
+                    app:layout_constraintTop_toBottomOf="@id/chocolate"
+                    app:spinnerAdapter="@{handlers.spinnerAdapter}"
+                    app:spinnerSelected="@{handlers.spinnerListener}" />
 
 
                 <androidx.constraintlayout.widget.ConstraintLayout
