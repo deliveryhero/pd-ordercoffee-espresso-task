@@ -1,8 +1,8 @@
 # Mailordercoffee-workshop
 
-<img src="./readme-images/1.png" width="25%" align="right" >
-<img src="./readme-images/2.png" width="25%" align="right" >
-<img src="./readme-images/3.png" width="25%" align="right" >
+<img src="./readme-images/3.png" width="25%" align="center" >
+<img src="./readme-images/2.png" width="25%" align="center" >
+<img src="./readme-images/1.png" width="25%" align="center" >
 
 <br />
 <br />
@@ -22,8 +22,7 @@
 <br />
 <br />
 <br />
-<br />
-<br />
+
 
 This Repo contains the source code for the 'Mail Order Coffeeshop app'.
 The MailOrder Coffeeshop app was built for Android App test automation practice.
