@@ -10,7 +10,7 @@ jobs:
     steps:
     - name: Build with Gradle
       uses: vgaidarji/android-github-actions/build@v1.0.0
-      run: ./gradlew assembleDebug
+      args: ./gradlew assembleDebug
     - name: Run UI Test
       uses: vgaidarji/android-github-actions/emulator@v1.0.0
     
