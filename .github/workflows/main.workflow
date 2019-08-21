@@ -1,6 +1,5 @@
 workflow "Build and Test" {
   on = "push"
-  resolves = "Publish Code Coverage"
 }
 
 action "Build" {
