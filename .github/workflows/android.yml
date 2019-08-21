@@ -8,7 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: vgaidarji/android-github-actions/build@v1.0.0
-    - args = "./gradlew assembleDebug"
+    uses: vgaidarji/android-github-actions/build@v1.0.0
+    with: "./gradlew assembleDebug"
     - name: Build
     - uses: vgaidarji/android-github-actions/emulator@v1.0.0
+    - name: Run UI Test
