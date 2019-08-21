@@ -5,9 +5,11 @@ workflow "Build and Test " {
 
 action "vgaidarji/android-github-actions/build@v1.0.0" {
   uses = "vgaidarji/android-github-actions/build@v1.0.0"
+  secrets = ["GITHUB_TOKEN"]
 }
 
 action "vgaidarji/android-github-actions/emulator@v1.0.0" {
   uses = "vgaidarji/android-github-actions/emulator@v1.0.0"
   needs = ["vgaidarji/android-github-actions/build@v1.0.0"]
+  secrets = ["GITHUB_TOKEN"]
 }
