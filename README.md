@@ -94,6 +94,11 @@ In general, this works*: 
 4. Scroll to the bottom and tap Build Number 7 times;
 5. Return to the previous screen to find Developer options near the bottom.
 
+### Tech Stack
+
+- Use `Java`Or `Kotlin`
+- Use [Espresso](https://developer.android.com/training/testing/espresso) for writing Android UI tests
+
 
 ### Workshop task 1
 
@@ -101,7 +106,8 @@ Goto to `app/src/androidTest/java/de/deliveryhero/mailordercoffeeshop` you will 
 
 - Close the `Onboarding` screen
 - Place and Order with `2 Espresso shots , Chocolate and Low fat Steamed Milk `
-- Fill the form to submit your order 
+- Ensure that your order is correct in Review Screen 
+- Fill the form with valid data to submit your order 
 - Click `Submit Order` - Just click the button not continue with Email part
 
 
@@ -112,3 +118,5 @@ Goto to `app/src/androidTest/java/de/deliveryhero/mailordercoffeeshop` you will 
 - Enter `your Name` and `your email`
 - Click `Submit Order`
 
+##Optional: 
+- Ensure that Gmail app is opened
