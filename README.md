@@ -118,5 +118,5 @@ Goto to `app/src/androidTest/java/de/deliveryhero/mailordercoffeeshop` you will 
 - Enter `your Name` and `your email`
 - Click `Submit Order`
 
-## Extra: 
+#### Optional: 
 - Ensure that Gmail app is opened
