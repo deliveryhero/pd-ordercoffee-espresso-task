@@ -94,13 +94,21 @@ In general, this works*: 
 4. Scroll to the bottom and tap Build Number 7 times;
 5. Return to the previous screen to find Developer options near the bottom.
 
+NOTE: To avoid flakiness, we highly recommend that you turn off system animations on the virtual or physical devices used for testing. 
+On your device, under Settings > Developer options, disable the following `3` settings:
+
+- Window animation scale
+- Transition animation scale
+- Animator duration scale
+
+
 ### Tech Stack
 
 - Use `Java`Or `Kotlin`
 - Use [Espresso](https://developer.android.com/training/testing/espresso) for writing Android UI tests
 
 
-### Workshop task 1
+### Workshop Task 1
 
 Goto to `app/src/androidTest/java/de/deliveryhero/mailordercoffeeshop` you will find `EspressoWorkshopTest` and here you can start writing your tests
 
@@ -111,7 +119,7 @@ Goto to `app/src/androidTest/java/de/deliveryhero/mailordercoffeeshop` you will 
 - Click `Submit Order` - Just click the button not continue with Email part
 
 
-### Workshop task 2
+### Workshop Task 2
 - Close the `Onboarding` screen
 - Click on `Menu`
 - Select `CAPPUCCINO`
