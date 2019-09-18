@@ -33,11 +33,11 @@ The MailOrder Coffeeshop app was built for Android App test automation practice.
 In order to run this app you'll need a way to download this project, an IDE, and a Android device or Emulator.
 Using Android Studio and Git is recommended:
 
-### Clone the project
+### Fork and Clone the project
 
 If you're familiar with Git, then you should know what to do.
-
-When the clone is finished you're all set to open the project.
+`Fork` it to your personal `Github account` and create a `new branch` 
+When the `clone` is finished you're all set to open the project.
 
 
 ### Download Android Studio
@@ -118,5 +118,5 @@ Goto to `app/src/androidTest/java/de/deliveryhero/mailordercoffeeshop` you will 
 - Enter `your Name` and `your email`
 - Click `Submit Order`
 
-##Optional: 
+## Extra: 
 - Ensure that Gmail app is opened
