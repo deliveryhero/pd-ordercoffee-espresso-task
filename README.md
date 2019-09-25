@@ -113,18 +113,7 @@ On your device, under Settings > Developer options, disable the following `3` se
 Goto to `app/src/androidTest/java/de/deliveryhero/mailordercoffeeshop` you will find `EspressoWorkshopTest` and here you can start writing your tests
 
 - Close the `Onboarding` screen
-- Place and Order with `2 Espresso shots , Chocolate and Low fat Steamed Milk `
-- Ensure that your order is correct in Review Screen 
-- Fill the form with valid data to submit your order 
-- Click `Submit Order` - Just click the button not continue with Email part
-
-
-### Workshop Task 2
-- Close the `Onboarding` screen
 - Click on `Menu`
 - Select `CAPPUCCINO`
 - Enter `your Name` and `your email`
 - Click `Submit Order`
-
-#### Optional: 
-- Ensure that Gmail app is opened
