@@ -33,11 +33,18 @@ The MailOrder Coffeeshop app was built for Android App test automation practice.
 In order to run this app you'll need a way to download this project, an IDE, and a Android device or Emulator.
 Using Android Studio and Git is recommended:
 
-### Fork and Clone the project
+### Clone and mirror the repo
 
 If you're familiar with Git, then you should know what to do.
-- `Fork` it to your personal `Github account` and create a `new branch` 
-- When the `clone` is finished you're all set to open the project.
+- Open Terminal.
+- Create a bare clone of the repository.
+- `git clone --bare https://github.com/exampleuser/old-repository.git`
+- Mirror-push to the new repository.
+- `cd old-repository.git`
+- `git push --mirror https://github.com/exampleuser/new-repository.git`
+- Remove the temporary local repository you created in step 1.
+- `cd ..`
+- `rm -rf old-repository.git
 
 
 ### Download Android Studio
@@ -113,7 +120,6 @@ On your device, under Settings > Developer options, disable the following `3` se
 Goto to `app/src/androidTest/java/de/deliveryhero/mailordercoffeeshop` you will find `EspressoWorkshopTest` and here you can start writing your tests
 
 - Close the `Onboarding` screen
-- Click on `Menu`
-- Select `CAPPUCCINO`
-- Enter `your Name` and `your email`
-- Click `Submit Order`
+- Place and Order with `2 Espresso shots , Chocolate and Low fat Steamed Milk `
+- Fill the form to submit your order 
+- Click `Submit Order` - Just click the button not continue with Email part
