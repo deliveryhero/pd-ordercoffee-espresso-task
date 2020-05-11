@@ -59,8 +59,6 @@ class EspressoWorkshopTest {
             clickPlus()
             setChocolate()
             openMilkTypeSelector()
-            SystemClock.sleep(5000)
-            //TODO, fix sleep
             selectMilk(MILK_SELECTION)
             swipeUp()
             setMilkPresentationType(MILK_PRESENTATION_TYPE)
