@@ -1,5 +1,6 @@
 package de.deliveryhero.mailordercoffeeshop.espresso
 
+import androidx.test.espresso.Espresso
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.action.ViewActions
 
@@ -26,4 +27,9 @@ object EspressoUtils {
     fun String.setRadio() { onView(withText(this)).perform(click())}
 
     fun Int.swipeUp() { onView(withId(this)).perform(ViewActions.swipeUp() )}
+
+    fun Int.typeText(text: String) {
+        onView(withId(this)).perform(ViewActions.typeText(text))
+        Espresso.closeSoftKeyboard()
+    }
 }
