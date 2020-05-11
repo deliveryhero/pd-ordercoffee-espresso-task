@@ -24,9 +24,13 @@ object EspressoUtils {
             .perform(click())
     }
 
-    fun String.setRadio() { onView(withText(this)).perform(click())}
+    fun String.setRadio() {
+        onView(withText(this)).perform(click())
+    }
 
-    fun Int.swipeUp() { onView(withId(this)).perform(ViewActions.swipeUp() )}
+    fun Int.swipeUp() {
+        onView(withId(this)).perform(ViewActions.swipeUp())
+    }
 
     fun Int.typeText(text: String) {
         onView(withId(this)).perform(ViewActions.typeText(text))
