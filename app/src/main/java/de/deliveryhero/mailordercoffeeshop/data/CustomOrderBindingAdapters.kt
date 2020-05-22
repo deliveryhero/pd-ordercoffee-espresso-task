@@ -8,7 +8,7 @@ import com.google.android.material.textfield.TextInputLayout
 
 @BindingAdapter("shotCounter")
 fun bindShotCounter(textView: TextView, number: Int) {
-    textView.setText(number.toString())
+    textView.text = number.toString()
 }
 
 @BindingAdapter("showView")
