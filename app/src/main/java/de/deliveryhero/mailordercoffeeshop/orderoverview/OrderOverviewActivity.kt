@@ -40,13 +40,13 @@ class OrderOverviewActivity : AppCompatActivity() {
 
     private fun showOrderErrors() {
         if (!orderOverviewViewModel.hasValidEmail()) {
-            orderOverviewViewModel.emailInputError?.set(getString(R.string.email_invalid_error))
+            orderOverviewViewModel.emailInputError.set(getString(R.string.email_invalid_error))
         }
         if (orderOverviewViewModel.getCustomerName().isBlank()) {
-            orderOverviewViewModel.customerNameInputError?.set(getString(R.string.customer_name_error))
+            orderOverviewViewModel.customerNameInputError.set(getString(R.string.customer_name_error))
         }
         if (orderOverviewViewModel.getCustomOrderName().isBlank()) {
-            orderOverviewViewModel.customOrderNameInputError?.set(getString(R.string.order_name_error))
+            orderOverviewViewModel.customOrderNameInputError.set(getString(R.string.order_name_error))
         }
     }
 
@@ -74,17 +74,17 @@ class OrderOverviewActivity : AppCompatActivity() {
 
         val customerNameOnFocusChangeListener: View.OnFocusChangeListener
             get() {
-                return View.OnFocusChangeListener { _, _ -> if (orderOverviewViewModel.getCustomerName().isNotBlank()) orderOverviewViewModel.customerNameInputError?.set("") }
+                return View.OnFocusChangeListener { _, _ -> if (orderOverviewViewModel.getCustomerName().isNotBlank()) orderOverviewViewModel.customerNameInputError.set("") }
             }
 
         val emailOnFocusChangeListener: View.OnFocusChangeListener
             get() {
-                return View.OnFocusChangeListener { _, _ -> if (orderOverviewViewModel.hasValidEmail()) orderOverviewViewModel.emailInputError?.set("") }
+                return View.OnFocusChangeListener { _, _ -> if (orderOverviewViewModel.hasValidEmail()) orderOverviewViewModel.emailInputError.set("") }
             }
 
         val customOrderNameOnFocusChangeListener: View.OnFocusChangeListener
             get() {
-                return View.OnFocusChangeListener { _, _ -> if (orderOverviewViewModel.getCustomOrderName().isNotBlank()) orderOverviewViewModel.customOrderNameInputError?.set("") }
+                return View.OnFocusChangeListener { _, _ -> if (orderOverviewViewModel.getCustomOrderName().isNotBlank()) orderOverviewViewModel.customOrderNameInputError.set("") }
             }
     }
 }
